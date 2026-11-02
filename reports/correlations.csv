@@ -1,0 +1,8 @@
+,study_hours_per_week,attendance_percent,previous_score,sleep_hours,assignments_completed_percent,social_media_hours_per_day,final_score
+study_hours_per_week,1.0,0.005,0.05,-0.049,0.073,-0.036,0.608
+attendance_percent,0.005,1.0,-0.042,-0.062,0.016,0.004,0.141
+previous_score,0.05,-0.042,1.0,-0.02,-0.05,0.009,0.364
+sleep_hours,-0.049,-0.062,-0.02,1.0,0.019,-0.009,0.132
+assignments_completed_percent,0.073,0.016,-0.05,0.019,1.0,-0.048,0.183
+social_media_hours_per_day,-0.036,0.004,0.009,-0.009,-0.048,1.0,-0.206
+final_score,0.608,0.141,0.364,0.132,0.183,-0.206,1.0

@@ -1,0 +1,13 @@
+model,feature,importance
+Random Forest,study_hours_per_week,0.466
+Random Forest,attendance_percent,0.078
+Random Forest,previous_score,0.192
+Random Forest,sleep_hours,0.084
+Random Forest,assignments_completed_percent,0.083
+Random Forest,social_media_hours_per_day,0.098
+Gradient Boosting,study_hours_per_week,0.511
+Gradient Boosting,attendance_percent,0.066
+Gradient Boosting,previous_score,0.2
+Gradient Boosting,sleep_hours,0.082
+Gradient Boosting,assignments_completed_percent,0.066
+Gradient Boosting,social_media_hours_per_day,0.074

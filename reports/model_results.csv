@@ -1,0 +1,4 @@
+,cv_rmse,rmse,mae,r2
+Linear Regression,6.955,7.421,6.035,0.575
+Random Forest,7.481,7.745,6.185,0.537
+Gradient Boosting,7.528,7.731,6.148,0.539
