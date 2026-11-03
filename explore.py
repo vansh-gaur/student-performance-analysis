@@ -1,5 +1,7 @@
 """Exploratory analysis: summary statistics, correlations and plots."""
 
+import os
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -44,6 +46,11 @@ def save_correlation_heatmap(df):
 
 
 def main():
+    # Fresh clones do not have these directories: git does not track
+    # empty folders, and the figures are generated, not committed.
+    os.makedirs("reports", exist_ok=True)
+    os.makedirs(FIGURES_DIR, exist_ok=True)
+
     df = pd.read_csv(INPUT_PATH)
 
     summary = df.describe().round(2)

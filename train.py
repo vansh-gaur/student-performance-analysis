@@ -1,6 +1,7 @@
 """Train and compare regression models for final score prediction."""
 
 import json
+import os
 
 import joblib
 import matplotlib.pyplot as plt
@@ -40,6 +41,12 @@ def evaluate(model, X_test, y_test):
 
 
 def main():
+    # Same reason as in explore.py: these folders are not in a fresh
+    # clone, so create them before writing any output files.
+    os.makedirs("reports", exist_ok=True)
+    os.makedirs("reports/figures", exist_ok=True)
+    os.makedirs("models", exist_ok=True)
+
     df = pd.read_csv(INPUT_PATH)
     X = df[FEATURES]
     y = df[TARGET]
